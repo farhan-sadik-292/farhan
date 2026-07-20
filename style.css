@@ -382,3 +382,42 @@ section {
 
     background: #1D4ED8;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+
+    background: #0F172A;
+    padding: 30px 0;
+}
+
+.footer-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+.footer-links {
+
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+
+    color: #94A3B8;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+
+    color: #ffffff;
+}
