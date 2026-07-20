@@ -292,8 +292,6 @@ section {
     text-align: center;
 }
 
-/* Featured Card */
-
 .featured {
     background: #0f172a;
     color: #fff;
@@ -308,4 +306,79 @@ section {
 
 .featured li::marker {
     color: #60a5fa;
+}
+
+/* AI GENERATED SECTION */
+.career {
+    background: #EFF6FF;
+    text-align: center;
+}
+
+.career-subtitle {
+
+    max-width: 700px;
+    margin: 0 auto 55px;
+    color: #6B7280;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.career-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.career-card {
+
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 14px;
+    border: 1px solid #DBEAFE;
+    transition: .3s;
+}
+
+.career-card:hover {
+
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(37, 99, 235, .15);
+}
+
+.career-card i {
+
+    font-size: 38px;
+    color: #2563EB;
+    margin-bottom: 20px;
+}
+
+.career-card h3 {
+
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.career-card p {
+
+    color: #6B7280;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.career-btn {
+
+    display: inline-block;
+    background: #2563EB;
+    color: #ffffff;
+    padding: 16px 38px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.career-btn:hover {
+
+    background: #1D4ED8;
 }
