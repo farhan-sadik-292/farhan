@@ -227,3 +227,85 @@ section {
     color: #6b7280;
     font-size: 15px;
 }
+
+/* PRICING*/
+
+.pricing {
+    background: #f8fafc;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.price-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    transition: .35s;
+}
+
+.price-card:hover {
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .08);
+}
+
+.price-card small {
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.price-card h3 {
+    font-size: 46px;
+    margin: 12px 0 5px;
+}
+
+.price-card p {
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.price-card ul {
+    list-style: disc;
+    padding-left: 18px;
+    margin-bottom: 35px;
+}
+
+.price-card li {
+    margin-bottom: 14px;
+    color: #374151;
+    line-height: 1.7;
+}
+
+.price-card li::marker {
+    color: #2563eb;
+}
+
+.price-card .btn {
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Featured Card */
+
+.featured {
+    background: #0f172a;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+.featured small,
+.featured p,
+.featured li {
+    color: #d1d5db;
+}
+
+.featured li::marker {
+    color: #60a5fa;
+}
